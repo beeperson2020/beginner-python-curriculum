@@ -1,8 +1,8 @@
 # Problem 1
 # Ask the user for their age.
 # Calculate and print how many decades old they are, rounded to the nearest whole number.
-
-
+age = input("what is your age ?")
+print ("my age is", age)
 
 # Problem 2
 # Ask the user to enter a number.
