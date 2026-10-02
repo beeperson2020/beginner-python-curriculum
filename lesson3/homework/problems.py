@@ -2,6 +2,12 @@
 # Ask user for two test scores.
 # If BOTH scores are at least 50, print "You passed both!"
 # Otherwise, print "You failed at least one."
+s1 = int(input ("what is your first score ?"))
+s2 = int(input ("what is your second score ?"))
+if s1 >= 50 and s2 >= 50 :
+    print("You passed both!")
+else :
+    print("You failed at least one.") 
 
 
 
@@ -10,7 +16,14 @@
 # If they brought lunch OR water, print "You're somewhat ready."
 # If they brought both, print "You're fully ready!"
 # If they brought neither, print "You're not ready."
-
+lunch = input("have you brought lunch? ")
+water = input("have you brought water? ")
+if  lunch == "yes" and water == "yes":
+    print ("you are fully ready!")
+elif   lunch == "yes" or water =="yes":
+    print("your somewhat ready")
+else:
+    print("Your not ready, so start packing")
 
 
 # Problem 3
