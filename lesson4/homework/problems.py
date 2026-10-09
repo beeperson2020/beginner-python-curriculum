@@ -4,20 +4,28 @@ import random
 # Create a list of 3 operating systems.
 # Print the last one using len().
 # Then reverse the list and print it.
-
+list1 = ["Apple" , "Microsoft" , "chrome"]
+print(list1[2])
 
 
 # Problem 2
 # Create a list of 4 school subjects.
 # Print the second subject.
 # Then sort them alphabetically and print the result.
+list = ["writing" , "art" , "math" , "science"]
+print(list[1])
 
+list.sort()
+print(list)
 
 
 # Problem 3 
 # Create a list of 5 error codes.
 # Print how many there are.
 # Then use a for loop to print each error code.
+
+error_code = ["401" , "405" , "410" , "423" , "498"]
+print(len(error_code))
 
 
 
