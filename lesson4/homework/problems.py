@@ -26,6 +26,8 @@ print(list)
 
 error_code = ["401" , "405" , "410" , "423" , "498"]
 print(len(error_code))
+for x in error_code:
+  print(x)
 
 
 
@@ -33,10 +35,18 @@ print(len(error_code))
 # Create a list of 2 programming languages.
 # Print a random one.
 # Then append another language and print the list.
-
+programming_language = ["java" , "c++"]
+print(programming_language[1])
+programming_language.append("typescript")
+print(programming_language)
 
 
 # Problem 5
 # Create a list of 6 passwords.
 # Print the one in the middle using len().
 # Then remove the first password in the list and print it.
+passwords = ["confused bob" , "annoying meadow" , "stinky sock" , "frying pan" , "duty5645plip" , "kcuof123242pipe"]
+mid = (len(passwords)//2)
+print(passwords[mid])
+passwords.pop(0)
+print(passwords)
